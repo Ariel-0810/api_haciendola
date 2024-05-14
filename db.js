@@ -1,8 +1,10 @@
 const { User } = require ("./models/Users")
 const { Sequelize } = require ("sequelize");
+const { pg } = require('pg')
 const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
+const { Pool } = require('pg')
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env;
 
 const sequelize = new Sequelize(
@@ -12,6 +14,15 @@ const sequelize = new Sequelize(
     native: false, 
   }
 );
+const pool = new Pool({
+  connectionString: process.env.POSTGRES_URL,
+})
+
+pool.connect((err) => {
+  if(err) throw err
+  console.log("Connect to PostgreSQL successfully!");
+})
+
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
