@@ -7,7 +7,7 @@ router.use(express.json());
 
 router.post("/", async (req, res) => {
  
-  let { username, password, fullname, email, image, phone } = req.body;   
+  let { username, password, fullname, email } = req.body;   
 
   try {
 
@@ -15,9 +15,7 @@ router.post("/", async (req, res) => {
       username,
       password,
       fullname,
-      email,
-      image,
-      phone,        
+      email,        
       });
 
 
