@@ -72,4 +72,9 @@ Cada carpeta y archivo tiene un propósito específico y juntos forman la estruc
 
 - `jsonwebtoken`: Se utiliza para la generación de tokens de autenticación JWT (JSON Web Tokens). Estos tokens se utilizan para autenticar a los usuarios en las solicitudes que requieren acceso a recursos protegidos.
 
+## Documentación Postman
+
+Se ha generado documentación Postman para facilitar el desarrollo y la integración con el backend de Haciendola. Puedes encontrar la documentación en el siguiente enlace: 
+https://documenter.getpostman.com/view/32818045/2sA3JQ5fPv
+
 
