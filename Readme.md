@@ -7,7 +7,7 @@
 Aquí están los comandos que necesitas para iniciar tu proyecto. Asegúrate de tener instalado Node.js y NPM en tu sistema antes de ejecutar estos comandos.
 
 1. ## Clonar el Repositorio: Clona este repositorio en tu máquina local:
-git clone https://github.com/Ariel-0810/api_haciendola
+git clone https://github.com/Ariel-0810/api_haciendola.git
 
 2. ## Navegar al Directorio: Accede al directorio del backend: cd api_haciendola
 
