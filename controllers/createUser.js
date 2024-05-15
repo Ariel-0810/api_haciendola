@@ -3,13 +3,10 @@ const bcrypt = require('bcrypt');
 
 
 async function createUser({
-    id,
     username,
     password,
     fullname,
     email,
-    image,
-    phone,
 }) {
     if(!username || !fullname || !email || !password)
     throw new Error("The data must be complete");
@@ -19,13 +16,10 @@ async function createUser({
 
 try {
     let resultado = await Users.create({
-      id,
       username,
       password: hashedPassword,
       fullname, 
       email,
-      image,
-      phone,
     })
 } catch (error) {
 
