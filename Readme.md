@@ -21,7 +21,7 @@ npm install
 npm start
 ```
 
-Sigue estos pasos en orden. Primero, npm install instalará todas las dependencias necesarias para tu proyecto. Finalmente, npm install iniciará el servidor de desarrollo, permitiéndote ver y probar tu proyecto en un entorno local.
+Sigue estos pasos en orden. Primero, npm install instalará todas las dependencias necesarias para tu proyecto. Finalmente, npm start iniciará el servidor de desarrollo, permitiéndote ver y probar tu proyecto en un entorno local.
 
 ## Estructura del Proyecto
 
